@@ -1,0 +1,56 @@
+.card{
+-fx-background-color: #FFF;
+-fx-background-radius: 5px;
+}
+
+.button-secondary{
+  -fx-background-color: linear-gradient(rgb(255, 255, 255) 100%, rgb(240, 240, 240) 0%);
+  -fx-background-radius: 6px;
+}
+
+.button-primary{
+  -fx-background-color: linear-gradient(#8E01F9 0%, #D50BFD 150%);
+  -fx-background-radius: 6px;
+}
+
+.button-primary:hover{
+  -fx-background-color: linear-gradient(#D50BFD 150%, #8E01F9 0%);
+}
+
+.button-secondary:hover{
+  -fx-background-color: linear-gradient(rgb(240, 240, 240) 0%, rgb(255, 255, 255) 100%);
+}
+
+.button-primary:pressed{
+  -fx-background-color: linear-gradient(rgb(175, 12, 207) 150%, rgb(98, 1, 172) 0%);
+}
+
+.button-secondary:pressed{
+  -fx-background-color: linear-gradient(rgb(219, 219, 219) 0%, rgb(241, 241, 241) 100%);
+}
+
+.slider .track {
+  -fx-control-inner-background: #FFF;
+}
+
+.slider .thumb {
+  -fx-background-color: linear-gradient(#8E01F9 0%, #FB3435 150%);
+}
+
+.slider .thumb:hover {
+  -fx-background-color: linear-gradient(#FB3435 0%, #8E01F9 150%);
+}
+
+.slider .thumb:pressed {
+  -fx-background-color: linear-gradient(rgb(158, 37, 37) 0%, rgb(102, 4, 177) 150%);
+}
+
+.default-color0.chart-series-line { -fx-stroke: #0097FF; }
+.default-color1.chart-series-line { -fx-stroke: #FD5374; }
+
+.default-color0.chart-line-symbol { -fx-background-color: #0097FF, white; }
+.default-color1.chart-line-symbol { -fx-background-color: #FD5374, white; }
+
+.chart-bar {
+  -fx-background-color: #0097FF;
+}

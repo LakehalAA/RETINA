@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" prefHeight="600.0" prefWidth="900.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.C_main">
+   <children>
+      <TabPane fx:id="tabs" focusTraversable="false" stylesheets="@css/list.css" VBox.vgrow="ALWAYS">
+         <tabs>
+            <Tab fx:id="history" closable="false" text="HISTORY     ">
+               <content>
+                  <VBox>
+                     <children>
+                        <FlowPane fx:id="wrappingList" prefHeight="496.0" prefWidth="840.0" VBox.vgrow="ALWAYS" />
+                        <VBox prefHeight="0.0" prefWidth="840.0">
+                           <children>
+                              <HBox prefHeight="69.0" prefWidth="870.0">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Hyperlink fx:id="onlineHelp" contentDisplay="TEXT_ONLY" focusTraversable="false" graphicTextGap="0.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="37.0" text="Consulter l'aide en ligne" textAlignment="RIGHT">
+                                             <font>
+                                                <Font name="GothamPro" size="12.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                    </HBox>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                                    <HBox alignment="CENTER_RIGHT">
+                                       <children>
+                                          <Hyperlink fx:id="importPic" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" focusTraversable="false" graphicTextGap="0.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#openPicker" prefHeight="37.0" text="Importer Une Photo" textAlignment="RIGHT" textFill="#ff0049">
+                                             <font>
+                                                <Font name="GothamPro-Bold" size="12.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </HBox>
+                                    <Button fx:id="takePic" defaultButton="true" graphicTextGap="20.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" pickOnBounds="false" prefHeight="40.0" prefWidth="70.0" style="-fx-background-color: #FF0049; -fx-background-radius: 0;" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                                       <font>
+                                          <Font name="GothamPro-Medium" size="14.0" />
+                                       </font>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                       <graphic>
+                                          <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@assets/camera-01.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button fx:id="verifye" defaultButton="true" graphicTextGap="20.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#verify" pickOnBounds="false" prefHeight="40.0" prefWidth="68.0" style="-fx-background-color: #FF0049; -fx-background-radius: 0;" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                                       <font>
+                                          <Font name="GothamPro-Medium" size="14.0" />
+                                       </font>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                       <graphic>
+                                          <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@assets/verify.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button fx:id="predict" defaultButton="true" graphicTextGap="20.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#predict" pickOnBounds="false" prefHeight="40.0" prefWidth="68.0" style="-fx-background-color: #FF0049; -fx-background-radius: 0;" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                                       <font>
+                                          <Font name="GothamPro-Medium" size="14.0" />
+                                       </font>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                       <graphic>
+                                          <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@assets/predict.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button fx:id="experiment" defaultButton="true" graphicTextGap="20.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#experiment" pickOnBounds="false" prefHeight="40.0" prefWidth="68.0" style="-fx-background-color: #FF0049; -fx-background-radius: 0;" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                                       <font>
+                                          <Font name="GothamPro-Medium" size="14.0" />
+                                       </font>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                       <graphic>
+                                          <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@assets/beaker.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab fx:id="stats" closable="false" text="STATS     ">
+               <content>
+                  <VBox>
+                     <children>
+                        <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Pane fx:id="chart" />
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab fx:id="admin" closable="false" text="ADMIN">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="538.0" prefWidth="325.0" spacing="10.0" stylesheets="@css/fieldsStyle.css">
+                                 <children>
+                                    <Label contentDisplay="CENTER" text="Se Connecter">
+                                       <font>
+                                          <Font name="GothamPro-Black" size="21.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets bottom="20.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <TextField fx:id="name" promptText="Name" style="-fx-background-radius: 0;" styleClass="field" />
+                                    <PasswordField fx:id="pwd" promptText="Password" style="-fx-background-radius: 0;" styleClass="field" />
+                                    <HBox prefHeight="22.0" prefWidth="246.0" spacing="25.0">
+                                       <children>
+                                          <RadioButton fx:id="remember" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#remember" text="Remember me" />
+                                          <RadioButton fx:id="forget" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#forget" text="Forget me" />
+                                       </children>
+                                    </HBox>
+                                    <Button fx:id="logIn" mnemonicParsing="false" prefHeight="26.0" prefWidth="457.0" style="-fx-background-color: #FF0049; -fx-background-radius: 0;" text="LogIn" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                       <font>
+                                          <Font name="GothamPro-Medium" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="30.0" right="30.0" top="15.0" />
+   </padding>
+</VBox>

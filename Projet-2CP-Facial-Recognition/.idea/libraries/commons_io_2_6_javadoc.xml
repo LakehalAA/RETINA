@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-io-2.6-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

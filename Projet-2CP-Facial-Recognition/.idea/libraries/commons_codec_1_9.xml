@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/xlsx/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/xlsx/poi-3.11-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/xlsx/poi-ooxml-3.11-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/xlsx/poi-ooxml-schemas-3.11-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/xlsx/stax-api-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/xlsx/xmlbeans-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

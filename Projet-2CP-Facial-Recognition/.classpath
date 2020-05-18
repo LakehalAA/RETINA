@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="Kernel/Reconaissance/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libraries/apacheIO/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="libraries/apacheIO/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/apacheIO/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/apacheIO/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="libraries/apacheIO/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/ejml-all-0.38.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/ejml-cdense-0.38.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/ejml-core-0.38.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/ejml-ddense-0.38.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/ejml-dsparse-0.38.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/ejml-fdense-0.38.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/ejml-simple-0.38.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/ejml-zdense-0.38.jar"/>
+	<classpathentry kind="lib" path="libraries/ejml/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="libraries/ij.jar"/>
+	<classpathentry kind="lib" path="libraries/javafx-sdk-13.0.2/lib/javafx-swt.jar"/>
+	<classpathentry kind="lib" path="libraries/javafx-sdk-13.0.2/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="libraries/javafx-sdk-13.0.2/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="libraries/javafx-sdk-13.0.2/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="libraries/javafx-sdk-13.0.2/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="libraries/javafx-sdk-13.0.2/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="libraries/javafx-sdk-13.0.2/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="libraries/javafx-sdk-13.0.2/lib/javafx.web.jar"/>
+	<classpathentry kind="lib" path="libraries/sarxos/bridj-0.7.0.jar"/>
+	<classpathentry kind="lib" path="libraries/sarxos/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="libraries/sarxos/webcam-capture-0.3.12.jar"/>
+	<classpathentry kind="lib" path="libraries/xlsx/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="libraries/xlsx/poi-3.11-beta2.jar"/>
+	<classpathentry kind="lib" path="libraries/xlsx/poi-ooxml-3.11-beta2.jar"/>
+	<classpathentry kind="lib" path="libraries/xlsx/poi-ooxml-schemas-3.11-beta2.jar"/>
+	<classpathentry kind="lib" path="libraries/xlsx/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="libraries/xlsx/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="libraries/opencv_java/opencv-430.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Projet-2CP-Facial-Recognition/libraries/opencv_java/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libraries/zip4j-2.5.2.jar"/>
+	<classpathentry kind="output" path="out/production/project"/>
+</classpath>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="900.0"
+	spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="Controllers.C_onboarding">
+	<children>
+		<ImageView fitHeight="115.0" fitWidth="126.0"
+			pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@assets/logop.png" />
+			</image>
+		</ImageView>
+		<Label text="Retina">
+			<font>
+				<Font name="GothamPro-Bold" size="24.0" />
+			</font>
+		</Label>
+		<Label prefHeight="70.0" prefWidth="480.0"
+			text="Bienvenu sur Retina, une implémentation simple pour la reconnaissance faciale en utilisons l'Algorithme de l'ACP"
+			textAlignment="CENTER" wrapText="true">
+			<font>
+				<Font name="GothamPro-Light" size="18.0" />
+			</font>
+			<VBox.margin>
+				<Insets top="10.0" />
+			</VBox.margin>
+		</Label>
+		<Button fx:id="welcome" mnemonicParsing="false"
+			prefHeight="40.0" prefWidth="121.0"
+			style="-fx-background-color: #FF0049;" text="Welcome!"
+			textFill="WHITE">
+			<font>
+				<Font name="GothamPro-Medium" size="14.0" />
+			</font>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+		</Button>
+	</children>
+</VBox>

@@ -1,0 +1,37 @@
+.personsList .thumb{
+  -fx-background-radius : 0;
+  -fx-background-color : "#FF0049";
+  -fx-padding : 0;
+}
+
+.personsList{
+  -fx-border-color : "#FF0049";
+  -fx-padding : 5px;
+}
+
+.personsList .thumb:hover{
+  -fx-background-color : "#FF0049CC";
+}
+
+.personsList .track{
+  -fx-background-color : "#FF004900";
+}
+
+.delete{
+  -fx-background-radius: 0px;
+  -fx-background-color: "#FF0049";
+  -fx-text-fill: "#FFF";
+}
+
+.show{
+  -fx-background-radius: 0px;
+  -fx-background-color: "#FFFFFF00";
+  -fx-text-fill: "#FF0049";
+  -fx-border-color: "#FF0049";
+}
+
+.show:hover{
+  -fx-background-color: "#FF0049CC";
+  -fx-text-fill: "#FFF";
+  -fx-border-color: "#FF004900";
+}
