@@ -107,6 +107,8 @@ public class C_takepic {
         init();
         cam.setItems(camsList);
 
+
+
         cam.valueProperty().addListener(new ChangeListener<webcamInfo>() {
             @Override
             public void changed(ObservableValue<? extends webcamInfo> observableValue, webcamInfo webcamInfo, webcamInfo t1) {
@@ -191,6 +193,12 @@ public class C_takepic {
         Thread th = new Thread(task);
         th.setDaemon(true);
         th.start();
+
+        if(!webcam.getName().equals("DroidCam Source 3 0")){
+           view.setRotate(0);
+        }else{
+            view.setRotate(90);
+        }
     }
 
 

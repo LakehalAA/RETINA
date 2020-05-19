@@ -1,82 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Projet-2CP-Facial-Recognition:jar" />
+    </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97035f7f-95b6-4713-88bb-6c320f9c76d7" name="Default Changelist" comment="" />
+    <list default="true" id="0b998069-abf0-40e3-9932-b7ef7147e5c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Projet_2CP_Facial_Recognition_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projet-2CP-Facial-Recognition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/bridj_0_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/bridj_0_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6_javadoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6_javadoc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ejml_all_0_38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ejml_all_0_38.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ij.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ij.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/zip4j_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BufferPerson/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BufferPerson/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BufferPerson/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BufferPerson/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BufferPerson/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BufferPerson/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BufferPerson/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s13/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s14/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s28/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s3/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s3/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s3/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s3/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s3/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s3/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s3/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s37/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s39/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s39/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s39/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s39/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s39/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s39/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s4/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s41/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s41/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s41/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s41/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s41/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s41/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL/s41/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface0.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface0.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracted.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/extracted.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historique/history.ser" beforeDir="false" afterPath="$PROJECT_DIR$/historique/history.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$webcamInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboardExperim$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboardExperim$distance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboardExperim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_onboarding$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_onboarding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_predict$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_predict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_slider$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_slider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$webcamInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_verify$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_verify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/HistoryList$History.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/HistoryList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/Main$Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/sceneManager$Scene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/sceneManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Caliper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/ConvexHull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/FaceDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Pointy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Polygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Renderable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$Caliper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$Corner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$GrahamScan$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$GrahamScan$Turn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$GrahamScan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/ACP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/RecognitionSysCatactiristics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/RecognitionSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/Reconaissance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/Threshold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/ThresholdParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/CalculMatriciel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/DataBase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/DataBase$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/DataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/Distance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/ImageProcessing$PGMIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/ImageProcessing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/FillProgressIndicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/FillProgressIndicatorSkin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/ProgressCircleIndicator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/ProgressCircleIndicator$StyleableProperties$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/ProgressCircleIndicator$StyleableProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/ProgressCircleIndicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicator$StyleableProperties$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicator$StyleableProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicatorSkin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet/UI/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputcam.png" beforeDir="false" afterPath="$PROJECT_DIR$/outputcam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputcam.png.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/outputcam.png.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconstructed_face.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/reconstructed_face.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/C_addperson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_addperson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/C_dashboardExperim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_dashboardExperim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/C_takepic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_takepic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/HistoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HistoryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/sceneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/sceneManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/DashBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="187" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="FxmlFile" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectId" id="1ann6APjZVYt0RaZ7c5qubh50pG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="1c64Q3ktYTGQ7eihWHSS9vYpPml" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libraries/opencv_java/opencv-430.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ORL" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projet2CP\To Push\Projet-2CP-Facial-Recognition\ProtectionBuffer" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Controllers" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projet2CP\To Push\Projet-2CP-Facial-Recognition\ProtectionBuffer" />
-      <recent name="D:\Projet2CP\To Push\Projet-2CP-Facial-Recognition\FormattingBuffer" />
-      <recent name="D:\Projet2CP\To Push\Projet-2CP-Facial-Recognition\ORL" />
-      <recent name="D:\Projet2CP\To Push\Projet-2CP-Facial-Recognition\src\UI\assets" />
-      <recent name="D:\Projet2CP\To Push\Projet-2CP-Facial-Recognition\src\UI" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,32 +258,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FaceDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kernel.FaceDetector.FaceDetector" />
-      <module name="projet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kernel.FaceDetector.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="14" />
       <option name="MAIN_CLASS_NAME" value="Controllers.Main" />
-      <module name="projet" />
+      <module name="Projet-2CP-Facial-Recognition" />
       <option name="VM_PARAMETERS" value="--module-path &quot;./libraries/javafx-sdk-13.0.2/lib/&quot; --add-modules=javafx.controls,javafx.fxml -Djava.library.path=libraries/opencv_java/x64" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Controllers.converter" />
-      <module name="projet" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Controllers.*" />
@@ -126,62 +273,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kernel.Reconaissance.main" />
-      <module name="projet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kernel.Reconaissance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="protection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Controllers.protection" />
-      <module name="projet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.converter" />
-      <item itemvalue="Application.FaceDetector" />
-      <item itemvalue="Application.main" />
-      <item itemvalue="Application.protection" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.converter" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="97035f7f-95b6-4713-88bb-6c320f9c76d7" name="Default Changelist" comment="" />
-      <created>1587380047895</created>
+      <changelist id="0b998069-abf0-40e3-9932-b7ef7147e5c6" name="Default Changelist" comment="" />
+      <created>1589835690582</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587380047895</updated>
-      <workItem from="1587427376599" duration="2657000" />
-      <workItem from="1587430902653" duration="5044000" />
-      <workItem from="1589140285715" duration="396000" />
-      <workItem from="1589140991042" duration="3818000" />
-      <workItem from="1589469408455" duration="53634000" />
-      <workItem from="1589815028893" duration="17734000" />
-      <workItem from="1589833075362" duration="406000" />
+      <updated>1589835690582</updated>
+      <workItem from="1589835696015" duration="1805000" />
+      <workItem from="1589837543716" duration="17496000" />
     </task>
     <servers />
   </component>
@@ -200,69 +304,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1589140294647">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589140294647" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589143811488">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589143811488" />
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1589024124932">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589024124932" />
-    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589024088682">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1589024088682" />
-    <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588786126306">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1588786126306" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588784408448">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588784408448" />
-    <state x="305" y="7" key="CommitChangelistDialog2" timestamp="1588786670647">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="305" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588786670647" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589144367558">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589144367558" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589144367558">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589144367558" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589144367558">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589144367558" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589144367558">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589144367558" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1589143742502">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589143742502" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589024063076">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589024063076" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589024287234">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1589024287234" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Projet_2CP_Facial_Recognition$Main.ic" NAME="Main Coverage Results" MODIFIED="1588425919000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

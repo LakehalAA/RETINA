@@ -76,6 +76,7 @@ public class sceneManager  extends Stage{
     public static void showScene(Scene scene) throws IOException {
 
         Parent root = FXMLLoader.load(sceneManager.class.getResource(scene.path));
+        System.out.print(sceneManager.class.getResource(scene.path));
         javafx.scene.Scene active = new javafx.scene.Scene(root, scene.getWidth(), scene.getHeight());
 
         primaryStage.setTitle(scene.getName());

@@ -208,6 +208,13 @@ public class C_addperson {
         Thread th = new Thread(task);
         th.setDaemon(true);
         th.start();
+
+        if(!webcam.getName().equals("DroidCam Source 3 0")){
+            view.setRotate(0);
+        }else{
+            view.setRotate(90);
+        }
+
     }
 
     private void startCamStream( int a ) {

@@ -19,26 +19,6 @@ import java.util.ArrayList;
 
 class HistoryList {
 
-    private static Image trueSymb;
-
-    static {
-        try {
-            trueSymb = new Image(new FileInputStream(new File("src/UI/assets/true.png")));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private static Image falseSymb;
-
-    static {
-        try {
-            falseSymb = new Image(new FileInputStream(new File("src/UI/assets/false.png")));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-
     static class History implements Serializable{
 
         transient private VBox historyCard = new VBox();
@@ -47,6 +27,9 @@ class HistoryList {
         private String dateTimeInGMT;
 
         public History(boolean state, String imagePath, String dateTimeInGMT) throws FileNotFoundException {
+
+            Image trueSymb = new Image(this.getClass().getResourceAsStream("/UI/assets/true.png"));
+            Image falseSymb = new Image(this.getClass().getResourceAsStream("/UI/assets/false.png"));
 
             VBox cardHistory = new VBox();
             ImageView imageHistory = new ImageView(new Image(new FileInputStream(imagePath)));

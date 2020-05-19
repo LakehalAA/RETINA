@@ -264,6 +264,7 @@ dialogStage.close();
 		directoryChooser.setTitle("Choisissez votre base de données");
 		File pickedPath = directoryChooser.showDialog(stage);
 		if (pickedPath != null) {
+			orlPath.setText(pickedPath.getName());
 			Stage dialogStage = new Stage();
 			dialogStage.initStyle(StageStyle.TRANSPARENT);
 			dialogStage.setResizable(false);
@@ -285,7 +286,7 @@ dialogStage.close();
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-//reorganize();
+
 			dialogStage.close();
 		     } else {
 			Alert alert = new Alert(AlertType.INFORMATION);

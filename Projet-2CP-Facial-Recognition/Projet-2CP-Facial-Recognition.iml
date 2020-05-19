@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6-javadoc.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6-sources.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6-test-sources.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6-tests.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/ejml-all-0.38.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/ejml-cdense-0.38.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/ejml-core-0.38.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/ejml-ddense-0.38.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/ejml-dsparse-0.38.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/ejml-fdense-0.38.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/ejml-simple-0.38.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/ejml-zdense-0.38.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ejml/jsr305-3.0.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/ij.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx-swt.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.base.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.controls.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.fxml.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.graphics.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.media.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.swing.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.web.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/sarxos/bridj-0.7.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/sarxos/slf4j-api-1.7.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/sarxos/webcam-capture-0.3.12.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/xlsx/commons-codec-1.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/xlsx/poi-3.11-beta2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/xlsx/poi-ooxml-3.11-beta2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/xlsx/poi-ooxml-schemas-3.11-beta2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/xlsx/stax-api-1.0.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/xlsx/xmlbeans-2.6.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/opencv_java/opencv-430.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libraries/zip4j-2.5.2.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/out/production/project" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="commons-io-2.6-javadoc.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-2.6-sources.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-2.6-test-sources.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6-test-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-2.6-tests.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6-tests.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-2.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/apacheIO/commons-io-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejml-all-0.38.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/ejml-all-0.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejml-cdense-0.38.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/ejml-cdense-0.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejml-core-0.38.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/ejml-core-0.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejml-ddense-0.38.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/ejml-ddense-0.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejml-dsparse-0.38.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/ejml-dsparse-0.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejml-fdense-0.38.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/ejml-fdense-0.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejml-simple-0.38.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/ejml-simple-0.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejml-zdense-0.38.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/ejml-zdense-0.38.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsr305-3.0.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ejml/jsr305-3.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ij.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/ij.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx-swt.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx-swt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.base.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.base.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.controls.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.controls.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.fxml.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.fxml.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.graphics.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.graphics.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.media.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.media.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.swing.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.swing.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javafx.web.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/javafx-sdk-13.0.2/lib/javafx.web.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bridj-0.7.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/sarxos/bridj-0.7.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.7.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/sarxos/slf4j-api-1.7.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="webcam-capture-0.3.12.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/sarxos/webcam-capture-0.3.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-codec-1.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/xlsx/commons-codec-1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poi-3.11-beta2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/xlsx/poi-3.11-beta2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poi-ooxml-3.11-beta2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/xlsx/poi-ooxml-3.11-beta2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poi-ooxml-schemas-3.11-beta2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/xlsx/poi-ooxml-schemas-3.11-beta2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="stax-api-1.0.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/xlsx/stax-api-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlbeans-2.6.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/xlsx/xmlbeans-2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="opencv-430.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/opencv_java/opencv-430.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <NATIVE>
+          <root url="file://Projet-2CP-Facial-Recognition/libraries/opencv_java/x64" />
+        </NATIVE>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="zip4j-2.5.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libraries/zip4j-2.5.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="commons-io-2.6-javadoc" level="project" />
+    <orderEntry type="library" name="ejml-all-0.38" level="project" />
+    <orderEntry type="library" name="javafx-swt" level="project" />
+    <orderEntry type="library" name="opencv-430" level="project" />
+    <orderEntry type="library" name="bridj-0.7.0" level="project" />
+    <orderEntry type="library" name="commons-codec-1.9" level="project" />
+    <orderEntry type="library" name="ij" level="project" />
+  </component>
+</module>

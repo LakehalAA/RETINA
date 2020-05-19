@@ -8,7 +8,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
@@ -44,15 +43,15 @@ public class Main extends Application {
 
        manager = new sceneManager(primaryStage);
 
-        manager.addScene("slider", new sceneManager.Scene(600,900,"Welcome!", "../UI/Slider.fxml"));
-        manager.addScene("main", new sceneManager.Scene(600,900,"Main", "../UI/Main.fxml"));
-        manager.addScene("cam", new sceneManager.Scene(500,300,"Taking Picture", "../UI/Take_Picture.fxml"));
-        manager.addScene("onboard", new sceneManager.Scene(600,900,"Retina", "../UI/On_Boarding.fxml"));
-        manager.addScene("predict", new sceneManager.Scene(600,900,"Predict", "../UI/Predict.fxml"));
-        manager.addScene("admin", new sceneManager.Scene(600,900,"Admin", "../UI/Admin_Dashboard.fxml"));
-        manager.addScene("addPerson", new sceneManager.Scene(500,300,"Add a new Person", "../UI/Add_Person.fxml"));
-        manager.addScene("experiment", new sceneManager.Scene(680,1300,"Experimental  ", "../UI/Dashboard.fxml"));
-        manager.addScene("verify", new sceneManager.Scene(600,900,"verify  ", "../UI/Verify.fxml"));
+        manager.addScene("slider", new sceneManager.Scene(600,900,"Bienvenu!", "/UI/Slider.fxml"));
+        manager.addScene("main", new sceneManager.Scene(600,900,"L'Interface principale", "/UI/Main.fxml"));
+        manager.addScene("cam", new sceneManager.Scene(500,300,"Prendre une photo pour la prediction", "/UI/Take_Picture.fxml"));
+        manager.addScene("onboard", new sceneManager.Scene(600,900,"Retina", "/UI/On_Boarding.fxml"));
+        manager.addScene("predict", new sceneManager.Scene(600,900,"Prediction", "/UI/Predict.fxml"));
+        manager.addScene("admin", new sceneManager.Scene(600,900,"Administrateur", "/UI/Admin_Dashboard.fxml"));
+        manager.addScene("addPerson", new sceneManager.Scene(500,300,"Ajouter une nouvelle personne", "/UI/Add_Person.fxml"));
+        manager.addScene("experiment", new sceneManager.Scene(768,1366,"Experimentez!", "/UI/Dashboard.fxml"));
+        manager.addScene("verify", new sceneManager.Scene(600,900,"Verification", "/UI/Verify.fxml"));
 
        /** Parent root = FXMLLoader.load(getClass().getResource("../UI/On_Boarding.fxml"));
         primaryStage.setTitle("Retina");
@@ -71,7 +70,6 @@ public class Main extends Application {
     {
 		
 		 DataBase database=null;
-			
 
 		try {
 		 database=new DataBase(5,"./ORL");
@@ -96,10 +94,9 @@ public class Main extends Application {
 		    }
 		  //System.out.println(RecognitionSystem.getDatabase().getPATH());
 		}
-    
-
 
     public static void main(String[] args) {
         launch(args);
     }
+
 }

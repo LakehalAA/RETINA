@@ -4,7 +4,9 @@
       <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6-tests.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/apacheIO/commons-io-2.6-test-sources.jar!/" />

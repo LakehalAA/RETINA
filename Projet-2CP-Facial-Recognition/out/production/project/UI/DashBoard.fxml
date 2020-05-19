@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="768.0" prefWidth="1366.0" spacing="30.0" stylesheets="@css/styleAnalytics.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.C_dashboardExperim">
+    <children>
+        <Label text="ANALYTICS">
+            <font>
+                <Font name="GothamPro-Black" size="26.0" />
+            </font>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </Label>
+        <GridPane hgap="25.0" vgap="15.0" VBox.vgrow="ALWAYS">
+            <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="287.0" />
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="268.0" minWidth="10.0" prefWidth="259.0" />
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="268.0" minWidth="10.0" prefWidth="268.0" />
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="0.0" prefWidth="222.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="157.0" minHeight="0.0" prefHeight="129.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="365.0" minHeight="10.0" prefHeight="299.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="231.0" minHeight="10.0" prefHeight="160.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <VBox prefHeight="162.0" prefWidth="287.0" style="-fx-background-color: #fff;" styleClass="card" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+                    <children>
+                        <Label text="ORL Properties">
+                            <font>
+                                <Font name="GothamPro-Medium" size="15.0" />
+                            </font>
+                        </Label>
+                        <HBox prefHeight="170.0" prefWidth="267.0" spacing="7.0" VBox.vgrow="ALWAYS">
+                            <children>
+                                <VBox prefHeight="69.0" prefWidth="68.0" style="-fx-background-color: #FFF;" styleClass="card" HBox.hgrow="SOMETIMES">
+                                    <effect>
+                                        <DropShadow blurType="GAUSSIAN" color="#0000000d" height="25.0" offsetY="5.0" radius="12.0" width="25.0" />
+                                    </effect>
+                                    <children>
+                                        <Label text="personne" textFill="#04d9c7">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <HBox alignment="CENTER" prefHeight="53.0" prefWidth="47.0" VBox.vgrow="ALWAYS">
+                                            <children>
+                                                <Label fx:id="persons" alignment="CENTER" contentDisplay="CENTER" text="68" textFill="#04d9c7">
+                                                    <font>
+                                                        <Font name="GothamPro-Medium" size="24.5" />
+                                                    </font>
+                                                    <effect>
+                                                        <Glow level="0.15" />
+                                                    </effect>
+                                                </Label>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </padding>
+                                </VBox>
+                                <VBox style="-fx-background-color: #FFF;" styleClass="card" HBox.hgrow="SOMETIMES">
+                                    <effect>
+                                        <DropShadow blurType="GAUSSIAN" color="#0000000d" height="25.0" offsetY="5.0" radius="12.0" width="25.0" />
+                                    </effect>
+                                    <padding>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </padding>
+                                    <children>
+                                        <Label prefWidth="54.0" text="visages" textFill="#9702fa">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+                                            <children>
+                                                <Label fx:id="faces" alignment="CENTER" contentDisplay="CENTER" text="68" textFill="#9702fa">
+                                                    <font>
+                                                        <Font name="GothamPro-Medium" size="24.5" />
+                                                    </font>
+                                                    <effect>
+                                                        <Glow level="0.15" />
+                                                    </effect>
+                                                </Label>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                                <VBox prefHeight="61.0" prefWidth="133.0" style="-fx-background-color: #FFF;" styleClass="card">
+                                    <effect>
+                                        <DropShadow blurType="GAUSSIAN" color="#0000000d" height="25.0" offsetY="5.0" radius="12.0" width="25.0" />
+                                    </effect>
+                                    <padding>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </padding>
+                                    <children>
+                                        <Label text="Resolution d'images" textFill="#00aeff">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <HBox alignment="CENTER" prefHeight="38.0" prefWidth="128.0" VBox.vgrow="ALWAYS">
+                                            <children>
+                                                <Label fx:id="resolution" alignment="CENTER" contentDisplay="CENTER" text="112 x 98" textFill="#00aeff">
+                                                    <font>
+                                                        <Font name="GothamPro-Medium" size="24.5" />
+                                                    </font>
+                                                    <effect>
+                                                        <Glow level="0.15" />
+                                                    </effect>
+                                                </Label>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                            <padding>
+                                <Insets bottom="5.0" top="10.0" />
+                            </padding>
+                        </HBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <effect>
+                        <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                    </effect>
+                </VBox>
+                <VBox prefHeight="162.0" prefWidth="287.0" spacing="3.0" style="-fx-background-color: #fff;" styleClass="card" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+                    <children>
+                        <Label text="parametre">
+                            <font>
+                                <Font name="GothamPro-Medium" size="15.0" />
+                            </font>
+                        </Label>
+                        <Pane prefHeight="200.0" prefWidth="518.0" VBox.vgrow="ALWAYS" />
+                        <HBox prefHeight="170.0" prefWidth="267.0" spacing="15.0" VBox.vgrow="ALWAYS">
+                            <padding>
+                                <Insets bottom="10.0" top="10.0" />
+                            </padding>
+                            <children>
+                                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0" HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@assets/Clock.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label prefHeight="17.0" prefWidth="122.0" text=" temps d'execution" HBox.hgrow="ALWAYS">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
+                                        <Label fx:id="timePredict" contentDisplay="RIGHT" layoutX="56.0" layoutY="20.0" prefHeight="17.0" prefWidth="34.0" text="+231" textFill="#1abcb0" HBox.hgrow="ALWAYS">
+                                            <font>
+                                                <Font name="GothamPro-Medium" size="12.0" />
+                                            </font>
+                                            <effect>
+                                                <Glow />
+                                            </effect>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="20.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0" HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@assets/Confusion-1.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label prefHeight="17.0" prefWidth="146.0" text="Degre de essamblance" HBox.hgrow="ALWAYS">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
+                                        <Label fx:id="ressemblanceDegree" layoutX="56.0" layoutY="20.0" prefHeight="17.0" prefWidth="34.0" text="+231" textFill="#1abcb0">
+                                            <font>
+                                                <Font name="GothamPro-Medium" size="12.0" />
+                                            </font>
+                                            <effect>
+                                                <Glow />
+                                            </effect>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </HBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <effect>
+                        <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                    </effect>
+                </VBox>
+                <VBox prefHeight="162.0" prefWidth="287.0" spacing="15.0" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowSpan="2147483647" GridPane.vgrow="ALWAYS">
+                    <children>
+                        <VBox prefHeight="0.0" prefWidth="320.0" spacing="5.0" style="-fx-background-color: #fff;" styleClass="card" VBox.vgrow="ALWAYS">
+                            <children>
+                                <Label text="Courbe ROC (FRR/FAR)">
+                                    <font>
+                                        <Font name="GothamPro-Medium" size="15.0" />
+                                    </font>
+                                </Label>
+                                <HBox>
+                                    <children>
+                                        <LineChart fx:id="roc" createSymbols="false" legendSide="RIGHT" prefHeight="162.0" prefWidth="567.0" titleSide="RIGHT" HBox.hgrow="ALWAYS">
+                                            <xAxis>
+                                                <NumberAxis label="Seuil" side="BOTTOM" />
+                                            </xAxis>
+                                            <yAxis>
+                                                <NumberAxis label="FAR/FRR" side="LEFT" />
+                                            </yAxis>
+                                        </LineChart>
+                                    </children>
+                                </HBox>
+                            </children>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <effect>
+                                <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                            </effect>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="162.0" prefWidth="287.0" spacing="5.0" style="-fx-background-color: #fff;" styleClass="card" VBox.vgrow="ALWAYS">
+                            <children>
+                                <Label text="Sensibilité per Seuil">
+                                    <font>
+                                        <Font name="GothamPro-Medium" size="15.0" />
+                                    </font>
+                                </Label>
+                                <HBox fx:id="rocCurve1">
+                                    <children>
+                                        <LineChart fx:id="scoreGraph" createSymbols="false" legendSide="RIGHT" prefHeight="162.0" prefWidth="567.0" titleSide="RIGHT" HBox.hgrow="ALWAYS">
+                                            <xAxis>
+                                                <NumberAxis label="Seuil" side="BOTTOM" />
+                                            </xAxis>
+                                            <yAxis>
+                                                <NumberAxis label="Sensebilité" side="LEFT" />
+                                            </yAxis>
+                                        </LineChart>
+                                    </children>
+                                </HBox>
+                            </children>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <effect>
+                                <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                            </effect>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="175.0" prefHeight="162.0" prefWidth="287.0" spacing="5.0" style="-fx-background-color: #fff;" styleClass="card" VBox.vgrow="ALWAYS">
+                            <children>
+                                <Label text="Time vs nb of eigenvectors">
+                                    <font>
+                                        <Font name="GothamPro-Medium" size="15.0" />
+                                    </font>
+                                </Label>
+                                <HBox>
+                                    <children>
+                                        <BarChart fx:id="bars" legendSide="RIGHT">
+                                            <xAxis>
+                                                <CategoryAxis label="Nb.Eigenvectors" side="BOTTOM" />
+                                            </xAxis>
+                                            <yAxis>
+                                                <NumberAxis label="Time" side="LEFT" />
+                                            </yAxis>
+                                        </BarChart>
+                                    </children>
+                                </HBox>
+                            </children>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <effect>
+                                <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                            </effect>
+                        </VBox>
+                    </children>
+                </VBox>
+                <VBox prefHeight="162.0" prefWidth="287.0" spacing="5.0" style="-fx-background-color: #fff;" styleClass="card" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+                    <children>
+                        <Label text="Rates">
+                            <font>
+                                <Font name="GothamPro-Medium" size="15.0" />
+                            </font>
+                        </Label>
+                        <Label text="( According to the used Distance )">
+                            <font>
+                                <Font name="GothamPro-Light" size="10.0" />
+                            </font>
+                        </Label>
+                        <Pane prefHeight="13.0" prefWidth="267.0" VBox.vgrow="SOMETIMES" />
+                        <VBox prefHeight="199.0" prefWidth="267.0" VBox.vgrow="ALWAYS">
+                            <VBox.margin>
+                                <Insets bottom="10.0" top="10.0" />
+                            </VBox.margin>
+                            <children>
+                                <HBox alignment="CENTER_LEFT" prefHeight="39.0" prefWidth="267.0" spacing="10.0" VBox.vgrow="ALWAYS">
+                                    <children>
+                                        <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@assets/check.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label prefHeight="17.0" prefWidth="106.0" text="Reconnaissance" HBox.hgrow="ALWAYS">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <Pane prefHeight="56.0" prefWidth="195.0" HBox.hgrow="SOMETIMES" />
+                                        <VBox alignment="CENTER" prefHeight="56.0" prefWidth="80.0" HBox.hgrow="ALWAYS">
+                                            <children>
+                                                <Label fx:id="recognition" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="80.0" text="+70" textFill="#1abcb0">
+                                                    <font>
+                                                        <Font name="GothamPro-Medium" size="12.0" />
+                                                    </font>
+                                                    <effect>
+                                                        <Glow />
+                                                    </effect>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" prefHeight="0.0" prefWidth="267.0" spacing="10.0" VBox.vgrow="ALWAYS">
+                                    <children>
+                                        <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@assets/Confusion.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label prefHeight="17.0" prefWidth="106.0" text="Confusion" HBox.hgrow="ALWAYS">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <Pane prefHeight="53.0" prefWidth="175.0" />
+                                        <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                                            <children>
+                                                <Label fx:id="confusion" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="80.0" text="+50" textAlignment="RIGHT" textFill="#1abcb0">
+                                                    <font>
+                                                        <Font name="GothamPro-Medium" size="12.0" />
+                                                    </font>
+                                                    <effect>
+                                                        <Glow />
+                                                    </effect>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" prefHeight="23.0" prefWidth="267.0" spacing="10.0" VBox.vgrow="ALWAYS">
+                                    <children>
+                                        <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@assets/non-check.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label prefHeight="17.0" prefWidth="95.0" text="Rejet" HBox.hgrow="ALWAYS">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <Pane prefHeight="53.0" prefWidth="205.0" />
+                                        <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                                            <children>
+                                                <Label fx:id="rejection" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="80.0" text="+231" textFill="#1abcb0">
+                                                    <font>
+                                                        <Font name="GothamPro-Medium" size="12.0" />
+                                                    </font>
+                                                    <effect>
+                                                        <Glow />
+                                                    </effect>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" prefHeight="0.0" prefWidth="267.0" spacing="10.0" VBox.vgrow="ALWAYS">
+                                    <children>
+                                        <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@assets/Score.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label prefHeight="17.0" prefWidth="90.0" text="F1-score" HBox.hgrow="ALWAYS">
+                                            <font>
+                                                <Font name="GothamPro-Light" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <Pane prefHeight="53.0" prefWidth="208.0" />
+                                        <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                                            <children>
+                                                <Label fx:id="score" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="80.0" text="+231" textFill="#1abcb0">
+                                                    <font>
+                                                        <Font name="GothamPro-Medium" size="12.0" />
+                                                    </font>
+                                                    <effect>
+                                                        <Glow />
+                                                    </effect>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <effect>
+                        <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                    </effect>
+                </VBox>
+                <VBox layoutX="10.0" layoutY="150.0" prefHeight="287.0" prefWidth="0.0" spacing="5.0" style="-fx-background-color: #fff;" styleClass="card" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+                    <children>
+                        <HBox>
+                            <children>
+                                <Pane HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <ImageView fx:id="reconstructed" fitHeight="205.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@assets/Backgrssound.png" />
+                                            </image>
+                                            <viewport>
+                                                <Rectangle2D />
+                                            </viewport>
+                                        </ImageView>
+                                    </children>
+                                </Pane>
+                            </children>
+                            <padding>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                            </padding>
+                        </HBox>
+                        <HBox alignment="TOP_CENTER" VBox.vgrow="ALWAYS">
+                            <children>
+                                <Label text="Reconstruction" textFill="#00aeff">
+                                    <font>
+                                        <Font name="GothamPro-Medium" size="18.0" />
+                                    </font>
+                                    <effect>
+                                        <Glow />
+                                    </effect>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <effect>
+                        <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                    </effect>
+                </VBox>
+                <VBox layoutX="322.0" layoutY="150.0" prefHeight="287.0" prefWidth="0.0" spacing="5.0" style="-fx-background-color: #fff;" styleClass="card" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <children>
+                        <HBox>
+                            <children>
+                                <Pane HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <ImageView fx:id="closestImage" fitHeight="205.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@assets/Backgrssound.png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </Pane>
+                            </children>
+                            <padding>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                            </padding>
+                        </HBox>
+                        <HBox alignment="TOP_CENTER" VBox.vgrow="ALWAYS">
+                            <children>
+                                <Label text="Closest Image" textFill="#ff00fe">
+                                    <font>
+                                        <Font name="GothamPro-Medium" size="18.0" />
+                                    </font>
+                                    <effect>
+                                        <Glow />
+                                    </effect>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <effect>
+                        <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                    </effect>
+                </VBox>
+                <VBox prefHeight="133.0" prefWidth="287.0" style="-fx-background-color: #fff;" styleClass="card" GridPane.columnSpan="3" GridPane.rowIndex="2">
+                    <children>
+                        <Label text="Settings to Adjust">
+                            <font>
+                                <Font name="GothamPro-Medium" size="15.0" />
+                            </font>
+                        </Label>
+                        <HBox spacing="40.0" VBox.vgrow="ALWAYS">
+                            <children>
+                                <VBox HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <Label prefHeight="17.0" prefWidth="121.0" text="Précision de seuil" HBox.hgrow="ALWAYS">
+                                                    <font>
+                                                        <Font name="GothamPro-Light" size="12.0" />
+                                                    </font>
+                                                </Label>
+                                                <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
+                                                <Slider fx:id="threPrecision" blockIncrement="0.01" majorTickUnit="0.025" max="0.05" min="5.0E-4" minorTickCount="4" prefHeight="14.0" prefWidth="87.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="0.005" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Label prefHeight="17.0" prefWidth="183.0" text="Nombre des vecteurs propres" HBox.hgrow="ALWAYS">
+                                                    <font>
+                                                        <Font name="GothamPro-Light" size="12.0" />
+                                                    </font>
+                                                </Label>
+                                                <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
+                                                <Slider fx:id="numberEigens" blockIncrement="0.01" majorTickUnit="5.0" max="20.0" min="10.0" minorTickCount="4" prefHeight="14.0" prefWidth="87.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="10.0" />
+                                            </children>
+                                        </HBox>
+                                        <HBox fx:id="distanceChoice" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Label prefHeight="13.0" prefWidth="97.0" text="Choix de Distance" HBox.hgrow="ALWAYS">
+                                                    <font>
+                                                        <Font name="GothamPro-Light" size="12.0" />
+                                                    </font>
+                                                </Label>
+                                                <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
+                                                <ChoiceBox fx:id="distances" prefWidth="150.0" style="-fx-background-radius: 8; -fx-background-color: #FFF;">
+                                                    <effect>
+                                                        <DropShadow color="#00000020" height="42.0" offsetY="6.0" radius="20.5" spread="0.3" width="42.0" />
+                                                    </effect>
+                                                </ChoiceBox>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="10.0" top="10.0" />
+                                    </padding>
+                                </VBox>
+                                <VBox layoutX="10.0" layoutY="10.0" HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Label prefHeight="17.0" prefWidth="121.0" text="ORL Path" HBox.hgrow="ALWAYS">
+                                                    <font>
+                                                        <Font name="GothamPro-Light" size="12.0" />
+                                                    </font>
+                                                </Label>
+                                                <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
+                                                <Label fx:id="orlPath" text="Label" />
+                                                <Button fx:id="orlPicker" mnemonicParsing="false" onAction="#chooseORL" styleClass="button-secondary" text="Choisir l'ORL">
+                                                    <effect>
+                                                        <DropShadow color="#0000001a" height="45.0" offsetY="10.0" radius="22.0" spread="0.2" width="45.0" />
+                                                    </effect>
+                                                </Button>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Label prefHeight="17.0" prefWidth="147.0" text="Nombre d'image de test" HBox.hgrow="ALWAYS">
+                                                    <font>
+                                                        <Font name="GothamPro-Light" size="12.0" />
+                                                    </font>
+                                                </Label>
+                                                <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
+                                                <Spinner fx:id="nbTest" />
+                                            </children>
+                                        </HBox>
+                                        <HBox fx:id="distanceChoice1" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Label prefHeight="13.0" prefWidth="197.0" text="Nombre d'image d'entrainement" HBox.hgrow="ALWAYS">
+                                                    <font>
+                                                        <Font name="GothamPro-Light" size="12.0" />
+                                                    </font>
+                                                </Label>
+                                                <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
+                                                <Spinner fx:id="nbTraining" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="10.0" top="10.0" />
+                                    </padding>
+                                </VBox>
+                            </children>
+                        </HBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <effect>
+                        <DropShadow blurType="GAUSSIAN" color="#0000001a" height="80.0" offsetY="8.0" radius="39.5" width="80.0" />
+                    </effect>
+                </VBox>
+            </children>
+        </GridPane>
+        <HBox alignment="CENTER_RIGHT" prefHeight="64.0" prefWidth="1316.0" spacing="20.0">
+            <children>
+                  <Button fx:id="back" mnemonicParsing="false" onAction="#backToMain" prefHeight="29.0" prefWidth="256.0" styleClass="button-secondary" text="Back" textFill="#000000c1">
+                      <effect>
+                          <DropShadow blurType="GAUSSIAN" color="#00000019" height="54.0" offsetY="10.0" radius="26.5" width="54.0" />
+                      </effect>
+                      <font>
+                          <Font name="GothamPro-Medium" size="12.0" />
+                      </font>
+                  </Button>
+            <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                  <Button fx:id="choose" mnemonicParsing="false" onAction="#chooseImage" prefHeight="29.0" prefWidth="256.0" styleClass="button-secondary" text="Choisir l'Image" textFill="#222222">
+                      <effect>
+                          <Glow />
+                      </effect>
+                      <font>
+                          <Font name="GothamPro-Medium" size="12.0" />
+                      </font>
+                  </Button>
+            <Button fx:id="execute" mnemonicParsing="false" onAction="#execute" prefHeight="29.0" prefWidth="256.0" styleClass="button-primary" text="Executer" textFill="WHITE">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" color="#00000019" height="54.0" offsetY="10.0" radius="26.5" width="54.0" />
+               </effect>
+               <font>
+                  <Font name="GothamPro-Medium" size="12.0" />
+               </font>
+            </Button>
+            </children>
+        </HBox>
+    </children>
+    <padding>
+        <Insets bottom="30.0" left="25.0" right="25.0" top="30.0" />
+    </padding>
+</VBox>
