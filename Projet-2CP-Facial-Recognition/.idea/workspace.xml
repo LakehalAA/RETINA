@@ -7,20 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b998069-abf0-40e3-9932-b7ef7147e5c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Projet_2CP_Facial_Recognition_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projet-2CP-Facial-Recognition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/bridj_0_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/bridj_0_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6_javadoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6_javadoc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ejml_all_0_38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ejml_all_0_38.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ij.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ij.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/zip4j_2_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BufferPerson/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/1.pgm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BufferPerson/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/2.pgm" afterDir="false" />
@@ -29,66 +15,6 @@
       <change beforePath="$PROJECT_DIR$/BufferPerson/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/5.pgm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BufferPerson/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/6.pgm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BufferPerson/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/7.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/1.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/10.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/5.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/6.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/7.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/8.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s13/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s13/9.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/1.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/10.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/5.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/6.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/7.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/8.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s14/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s14/9.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/1.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/10.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/5.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/6.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/7.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/8.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s28/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s28/9.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s3/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/1.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s3/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/10.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s3/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s3/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s3/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s3/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/5.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s3/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s3/6.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/1.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/10.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/5.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/6.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/7.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/8.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s37/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s37/9.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s39/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s39/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s39/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s39/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s39/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s39/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/1.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/10.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/5.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/6.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/7.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/8.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ORL/s4/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s4/9.pgm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ORL/s41/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/1.pgm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ORL/s41/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/2.pgm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ORL/s41/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/ORL/s41/3.pgm" afterDir="false" />
@@ -108,123 +34,19 @@
       <change beforePath="$PROJECT_DIR$/eigenface9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface9.pgm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extracted.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/extracted.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/historique/history.ser" beforeDir="false" afterPath="$PROJECT_DIR$/historique/history.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson$webcamInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_addperson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboardExperim$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboardExperim$distance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_dashboardExperim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_onboarding$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_onboarding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_predict$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_predict.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_slider$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_slider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic$webcamInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_takepic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_verify$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/C_verify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/HistoryList$History.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/HistoryList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/Main$Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/converter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/protection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/sceneManager$Scene.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Controllers/sceneManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Caliper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/ConvexHull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/FaceDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Pointy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Polygon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/Renderable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$Caliper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$Corner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$GrahamScan$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$GrahamScan$Turn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers$GrahamScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/FaceDetector/RotatingCalipers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/ACP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/RecognitionSysCatactiristics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/RecognitionSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/Reconaissance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/Threshold.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/ThresholdParameters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Reconnaissance/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/CalculMatriciel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/DataBase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/DataBase$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/DataBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/Distance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/ImageProcessing$PGMIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/Kernel/Utils/ImageProcessing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/FillProgressIndicator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/FillProgressIndicatorSkin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/ProgressCircleIndicator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/ProgressCircleIndicator$StyleableProperties$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/ProgressCircleIndicator$StyleableProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/ProgressCircleIndicator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicator$StyleableProperties$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicator$StyleableProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/ProgressBar/RingProgressIndicatorSkin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet/UI/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/UI/DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/UI/DashBoard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outputcam.png" beforeDir="false" afterPath="$PROJECT_DIR$/outputcam.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outputcam.png.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/outputcam.png.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reconstructed_face.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/reconstructed_face.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/C_addperson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_addperson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/C_dashboardExperim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_dashboardExperim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/C_takepic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_takepic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/HistoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HistoryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/sceneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/sceneManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/DashBoard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temporary/s41/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/1.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temporary/s41/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temporary/s41/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temporary/s41/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temporary/s41/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/5.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temporary/s41/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/6.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temporary/s41/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s41/7.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589835690582</updated>
       <workItem from="1589835696015" duration="1805000" />
-      <workItem from="1589837543716" duration="17496000" />
+      <workItem from="1589837543716" duration="18137000" />
     </task>
     <servers />
   </component>

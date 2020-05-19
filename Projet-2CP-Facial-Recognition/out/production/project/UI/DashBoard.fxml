@@ -175,7 +175,7 @@
                                             </font>
                                         </Label>
                                         <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
-                                        <Label fx:id="timePredict" contentDisplay="RIGHT" layoutX="56.0" layoutY="20.0" prefHeight="17.0" prefWidth="34.0" text="+231" textFill="#1abcb0" HBox.hgrow="ALWAYS">
+                                        <Label fx:id="timePredict" contentDisplay="RIGHT" layoutX="56.0" layoutY="20.0" prefHeight="17.0" prefWidth="34.0" text="NaN" textFill="#1abcb0" HBox.hgrow="ALWAYS">
                                             <font>
                                                 <Font name="GothamPro-Medium" size="12.0" />
                                             </font>
@@ -198,7 +198,7 @@
                                             </font>
                                         </Label>
                                         <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
-                                        <Label fx:id="ressemblanceDegree" layoutX="56.0" layoutY="20.0" prefHeight="17.0" prefWidth="34.0" text="+231" textFill="#1abcb0">
+                                        <Label fx:id="ressemblanceDegree" layoutX="56.0" layoutY="20.0" prefHeight="17.0" prefWidth="34.0" text="NaN" textFill="#1abcb0">
                                             <font>
                                                 <Font name="GothamPro-Medium" size="12.0" />
                                             </font>
@@ -562,7 +562,7 @@
                                         </HBox>
                                         <HBox fx:id="distanceChoice" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                             <children>
-                                                <Label prefHeight="13.0" prefWidth="97.0" text="Choix de Distance" HBox.hgrow="ALWAYS">
+                                                <Label prefHeight="13.0" prefWidth="131.0" text="Choix de Distance" HBox.hgrow="ALWAYS">
                                                     <font>
                                                         <Font name="GothamPro-Light" size="12.0" />
                                                     </font>
@@ -590,7 +590,7 @@
                                                     </font>
                                                 </Label>
                                                 <Pane prefHeight="36.0" prefWidth="0.0" HBox.hgrow="SOMETIMES" />
-                                                <Label fx:id="orlPath" text="Label" />
+                                                <Label fx:id="orlPath" text="Nom de l'ORL" />
                                                 <Button fx:id="orlPicker" mnemonicParsing="false" onAction="#chooseORL" styleClass="button-secondary" text="Choisir l'ORL">
                                                     <effect>
                                                         <DropShadow color="#0000001a" height="45.0" offsetY="10.0" radius="22.0" spread="0.2" width="45.0" />
