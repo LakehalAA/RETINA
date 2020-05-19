@@ -175,7 +175,8 @@ public class C_dashboard implements Initializable {
         directoryChooser.setInitialDirectory(new File(System.getProperty("user.home")));
         directoryChooser.setTitle("Choisissez une ORL à manipuler");
         File Set = directoryChooser.showDialog(stage);
-        dialogStage.close();
+        
+        if(Set!=null) {
         dataSet = Set.getAbsolutePath();
 
         //NbrePersonne = fFolders.length;
@@ -188,10 +189,11 @@ public class C_dashboard implements Initializable {
         System.out.println(DataBase.getNUMBERMAXOFPRESONS());
        // reorganize("./temp");
         File[] fFolders = new File(db.getPATH()).listFiles(File::isDirectory);
+        this.nbreOfPersonIndatabase=db.getNUMBEROFTRAININGPERSONS();
         assert fFolders != null;
         updateList(fFolders);
-        retrain=true;
-
+        retrain=true;}
+        dialogStage.close();
     }
 
 
@@ -247,9 +249,9 @@ public class C_dashboard implements Initializable {
             if(pickedPerson!=null) {
                 NbrePersonne++;
                 int numberofnewFile=this.nbreOfPersonIndatabase+1 ;
-                FileUtils.copyDirectory(pickedPerson, new File(RecognitionSystem.getDatabase().getPATH()+"\\s"+numberofnewFile));
+                FileUtils.copyDirectory(pickedPerson, new File(db.getPATH()+"\\s"+numberofnewFile));
 
-
+                database=new File(db.getPATH());
                 File[] folders = database.listFiles(new FileFilter() {
                     @Override
                     public boolean accept(File pathname) {
@@ -283,7 +285,7 @@ public class C_dashboard implements Initializable {
         assert chart != null : "fx:id=\"chart\" was not injected: check your FXML file 'Admin_Dashboard.fxml'.";
 
 
-        database = new File(DataBase.getPATH());
+        database = new File(db.getPATH());
         takePic.setTooltip(new Tooltip("Ajouter une personne ici"));
         batchadd.setTooltip(new Tooltip("Ajouter plusieurs personnes"));
         changeORL.setTooltip(new Tooltip("Changer le data-set"));
@@ -313,7 +315,7 @@ public class C_dashboard implements Initializable {
             @Override
             protected Void call() throws Exception {
 
-                final Path path = FileSystems.getDefault().getPath(DataBase.getPATH());
+                final Path path = FileSystems.getDefault().getPath(db.getPATH());
                 try (final WatchService watchService = FileSystems.getDefault().newWatchService()) {
                     final WatchKey watchKey = path.register(watchService, StandardWatchEventKinds.ENTRY_CREATE,
                             StandardWatchEventKinds.ENTRY_DELETE, StandardWatchEventKinds.ENTRY_MODIFY);
