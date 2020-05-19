@@ -32,7 +32,7 @@ public class Main extends Application {
 
     static public sceneManager manager;
    
-    public static Admin admin = new Admin("lynda", "della");
+    public static Admin admin = new Admin("admin", "admin");
 
 
 
