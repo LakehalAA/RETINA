@@ -99,64 +99,63 @@ public class C_dashboard implements Initializable {
     private int nbreOfPersonIndatabase= db.getNUMBERMAXOFPRESONS();
     private String dataSet= db.getPATH();
 
-    // Event Listener on Button[#batchadd].onAction
-    @FXML
-    public void batchAdd(ActionEvent actionEvent) throws IOException, InterruptedException {
-        Stage dialogStage = new Stage();
-        dialogStage.initStyle(StageStyle.TRANSPARENT);
-        dialogStage.setResizable(false);
-        dialogStage.initModality(Modality.APPLICATION_MODAL);
-        RingProgressIndicator ringProgressIndicator = new RingProgressIndicator();
-        ringProgressIndicator.setVisible(true);
-        ringProgressIndicator.makeIndeterminate();
-        Scene scene = new Scene(ringProgressIndicator);
-        dialogStage.setScene(scene);
-        dialogStage.show();
-        JFileChooser chooser = new JFileChooser();
-        FileChooser choose=new FileChooser();
-        chooser.setMultiSelectionEnabled(true);
-        chooser.setCurrentDirectory(new File("user.home"));
-        chooser.setDialogTitle("multi-sélection");
-        chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-        chooser.showOpenDialog(null);
+ // Event Listener on Button[#batchadd].onAction
+ 	@FXML
+ 	public void batchAdd(ActionEvent actionEvent) throws IOException, InterruptedException {
+ 		 Stage dialogStage = new Stage();
+ 	     dialogStage.initStyle(StageStyle.TRANSPARENT);
+ 	     dialogStage.setResizable(false);
+ 	     dialogStage.initModality(Modality.APPLICATION_MODAL);
+ 	     RingProgressIndicator ringProgressIndicator = new RingProgressIndicator();
+ 	     ringProgressIndicator.setVisible(true);
+ 	     ringProgressIndicator.makeIndeterminate();
+ 	     Scene scene = new Scene(ringProgressIndicator);
+ 	     dialogStage.setScene(scene);
+ 	     dialogStage.show();
+ 	     JFileChooser chooser = new JFileChooser();
+ 	     FileChooser choose=new FileChooser();
+ 	     chooser.setMultiSelectionEnabled(true);
+ 	     chooser.setCurrentDirectory(new File("user.home"));
+ 	     chooser.setDialogTitle("multi-sélection");
+ 		 chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+ 		 chooser.showOpenDialog(null);
 
-        File[] files1= chooser.getSelectedFiles();
+ 		File[] files1= chooser.getSelectedFiles();
 
-        File[] listOFnewFiles=new File[files1.length];
-        for (int i = 0; i <files1.length; i++) {
-            try {
-                nbreOfPersonIndatabase++;
-                listOFnewFiles[i]= new File(db.getPATH()+"//s" +nbreOfPersonIndatabase);
-                FileUtils.copyDirectory(new File(files1[i].getAbsolutePath()),listOFnewFiles[i]);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        //renommer les images :)
-        for (int i = 0; i < listOFnewFiles.length; i++) {
-            File file2 = new File(listOFnewFiles[i].getAbsolutePath());
-            File[] images1 = file2.listFiles();
+ 		File[] listOFnewFiles=new File[files1.length];
+ 		for (int i = 0; i <files1.length; i++) {
+ 			try {
+ 				nbreOfPersonIndatabase++;
+ 				listOFnewFiles[i]= new File(db.getPATH()+"//s" +nbreOfPersonIndatabase);
+ 				FileUtils.copyDirectory(new File(files1[i].getAbsolutePath()),listOFnewFiles[i]);
+ 			} catch (IOException e) {
+ 				e.printStackTrace();
+ 			}
+ 		}
+ 		//renommer les images :)
+ 		for (int i = 0; i < listOFnewFiles.length; i++) {
+ 			 File file2 = new File(listOFnewFiles[i].getAbsolutePath());
+ 	           File[] images1 = file2.listFiles();
 
-            try {
-                for (int j = 0; j < images1.length; j++) {
-                    if (images1[j].isFile()) {
-                        images1[j].renameTo(new File(file2.getAbsoluteFile() + "\\" + (j + 1) + ".pgm"));
-                    }
-                }
+ 	           try {
+ 	               for (int j = 0; j < images1.length; j++) {
+ 	                   if (images1[j].isFile()) {
+ 	                       images1[j].renameTo(new File(file2.getAbsoluteFile() + "\\" + (j + 1) + ".pgm"));
+ 	                   }
+ 	               }
 
-            } catch (Exception e) {
-                file2.getName();
-            }
+ 	           } catch (Exception e) {
+ 	               file2.getName();
+ 	           }
+ 			
+ 		}
+ 		  retrain=true;
 
-        }
-        retrain=true;
-
-        File[] fFolders = new File(db.getPATH()).listFiles(File::isDirectory);
-        updateList(fFolders);
-        dialogStage.close();
-    }
-
-    // Event Listener on Button[#changeORL].onAction
+ 		File[] fFolders = new File(db.getPATH()).listFiles(File::isDirectory);
+ 		updateList(fFolders);
+         dialogStage.close();
+ 	}
+ 	 // Event Listener on Button[#changeORL].onAction
     @FXML
     public void changeORL(ActionEvent e) throws IOException, InterruptedException {
 
@@ -187,13 +186,14 @@ public class C_dashboard implements Initializable {
         FileUtils.copyDirectory(new File(dataSet),new File(f.getAbsolutePath()));
         db=new DataBase(5,path);
         System.out.println(DataBase.getNUMBERMAXOFPRESONS());
-        // reorganize("./temp");
+       // reorganize("./temp");
         File[] fFolders = new File(db.getPATH()).listFiles(File::isDirectory);
         assert fFolders != null;
         updateList(fFolders);
         retrain=true;
 
     }
+
 
     void run() throws IOException {
 
@@ -332,7 +332,7 @@ public class C_dashboard implements Initializable {
 
                         boolean valid = wk.reset();
                         if (!valid) {
-                            System.out.println("Key has been unregistered");
+                            //System.out.println("Key has been unregistered");
                         }
                     }
                 } catch (InterruptedException e) {

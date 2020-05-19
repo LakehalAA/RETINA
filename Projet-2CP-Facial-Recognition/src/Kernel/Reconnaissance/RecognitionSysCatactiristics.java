@@ -143,34 +143,7 @@ public  class RecognitionSysCatactiristics {
 	
 	
     //count of training pics done automaticly in constructor of database
-  /**  public static void trainModel(String ORL_PATH,int dischoice,int trainingPicsParPersonne,int PicsToAjustThreshold_ParPersonne, double threshold_Step)
-    {
-    	
-    	NBRECONF=TP=TN=FN=FP=TotalTests=0;
-        try {
-        	long startTime = System.currentTimeMillis();
-        	RecognitionSysCatactiristics.ORL_PATH=ORL_PATH;
-        	RecognitionSysCatactiristics.trainingPicsParPersonne=trainingPicsParPersonne;
-        RecognitionSysCatactiristics.PicsToAjustThreshold_ParPersonne=PicsToAjustThreshold_ParPersonne;
-            System.out.println("stat");
-			database= new DataBase(trainingPicsParPersonne,ORL_PATH,100);
-			process=new Reconaissance(database,trainingPicsParPersonne,PicsToAjustThreshold_ParPersonne,dischoice,threshold_Step,k);
-			Threshold_Value=Threshold.getThreshold();
-			//System.out.println(Threshold_Value);
-	    	long endTime = System.currentTimeMillis();
-
-        	execution_time = (endTime - startTime); 
-			thresholds=Threshold.getThresholdsParm();
-			for (int i = 0; i < thresholds.size(); i++) {
-				FAR.add(thresholds.get(i).getFAR());
-				FAR.add(thresholds.get(i).getFRR());
-			}
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-    	
-    }*/
+ 
     public static String getORL_PATH() {
 		return ORL_PATH;
 	}
@@ -197,8 +170,8 @@ public  class RecognitionSysCatactiristics {
     	long startTime = System.currentTimeMillis();
     
     	//cette boucle c est sur les personne sur les quelles on a fait l entrainement donc consid�rer comme connues  75%
-    		System.out.println("ceci est les taux sur les 30 peronnes connues ");
-    		System.out.println(database.getNUMBEROFTRAININGPERSONS() +"  "+MaxPicsParPersonne+"   "+trainingPicsParPersonne+PicsToAjustThreshold_ParPersonne);
+    		
+    		//System.out.println(database.getNUMBEROFTRAININGPERSONS() +"  "+MaxPicsParPersonne+"   "+trainingPicsParPersonne+PicsToAjustThreshold_ParPersonne);
     	 for(int itr1=1; itr1<=database.getNUMBEROFTRAININGPERSONS(); itr1++){
              for(int itr2=trainingPicsParPersonne+PicsToAjustThreshold_ParPersonne+1; itr2<=MaxPicsParPersonne; itr2++){
                  try {
@@ -238,9 +211,8 @@ public  class RecognitionSysCatactiristics {
          System.out.println("sur  "+TotalTests);
          System.out.println("***************************************");*/
     	 //la decision repose sur comment on va choisir de faire �a 
-    	 String  databaseforunkown=database.getPATH();/**pour l instant j ai divise le dataset 30 connu
-    	  sur les quels on fait l entrainement et 10 inconnues de la meme base ORL de 40 personne **/
-    	 //this code will surely be modified
+    	 String  databaseforunkown=database.getPATH();
+    	 //sur les personnes inconnues si on prend moins de 100% de personnes pour l entrainement 
 
       for(int itr1=database.getNUMBEROFTRAININGPERSONS()+1; itr1<=database.getNUMBERMAXOFPRESONS(); itr1++){
              for(int itr2=1; itr2<=database.getNUMBEROFIMAGESMAXPERPERSON() ; itr2++){
@@ -296,8 +268,8 @@ public  class RecognitionSysCatactiristics {
         	trainingPicsParPersonne=database.getNUMBEROFPICTURES();
             MaxPicsParPersonne=database.getNUMBEROFIMAGESMAXPERPERSON();  
             maxPersonsINDataBase=database.getNUMBERMAXOFPRESONS();
-            System.out.println(database.getNUMBEROFIMAGESMAXPERPERSON());
-            System.out.println("stat");
+          //  System.out.println(database.getNUMBEROFIMAGESMAXPERPERSON());
+          //  System.out.println("stat");
 
 			process=new Reconaissance(database,trainingPicsParPersonne,PicsToAjustThreshold_ParPersonne,dischoice,threshold_Step,k);
 			Threshold_Value=Threshold.getThreshold();

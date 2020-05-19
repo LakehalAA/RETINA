@@ -362,14 +362,24 @@ public class C_addperson {
             converter.convertFormat(f.getPath(),"outputcam.png");
             FaceDetector fd = new FaceDetector(new File("outputcam.png.jpg"));
             //  converter.convertFormat(inter, 112,92);
+            try {
+				
+			
+			
             if (fd.detectFace()) {
 
                 if(webcam.getName().equals("DroidCam Source 3 0")) {
-                    converter.convertAddFormat(rotatedImage, db.getNUMROWS(), db.getNUMCOLS(),"BufferPerson/" + String.valueOf(picturingOrder+1));
+                   
+                	converter.convertAddFormat(rotatedImage, db.getNUMROWS(), db.getNUMCOLS(),"BufferPerson/" + String.valueOf(picturingOrder+1));
+                	
+
                 }else{
                     converter.convertAddFormat(inter, db.getNUMROWS(), db.getNUMCOLS(), "BufferPerson/" + String.valueOf(picturingOrder+1));
                 }
-                File[] files = new File("ORL").listFiles(new FileFilter() {
+                
+            	//converter.convertAddFormat(rotatedImage, db.getNUMROWS(), db.getNUMCOLS(),"BufferPerson/" + String.valueOf(picturingOrder+1));
+
+                File[] files = new File(db.getPATH()).listFiles(new FileFilter() {
                     @Override
                     public boolean accept(File pathname) {
                         return pathname.isDirectory();
@@ -386,7 +396,13 @@ public class C_addperson {
                 alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
                 alert.showAndWait();
             }
-
+            } catch (Exception e) {
+				// TODO: handle exception
+            	 Alert alert = new Alert(Alert.AlertType.ERROR);
+                 alert.setHeaderText(null);
+                 alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
+                 alert.showAndWait();
+			}
             }
 
     };
