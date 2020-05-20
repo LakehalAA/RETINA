@@ -319,6 +319,7 @@ public class C_addperson {
             System.out.print(converter.convertFormat(f.getPath(),"outputcam.png"));
             FaceDetector fd = new FaceDetector(new File("outputcam.png.jpg"));
             //  converter.convertFormat(inter, 112,92);
+        try{
             if (fd.detectFace()) {
 
                 if(webcam.getName().equals("DroidCam Source 3 0")) {
@@ -338,6 +339,16 @@ public class C_addperson {
               alert.showAndWait();
 
           }
+
+        }
+           catch (Exception e) {
+            // TODO: handle exception
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
+            alert.showAndWait();
+            e.printStackTrace();
+        }
         }else {
 
             Rectangle clip = new Rectangle();

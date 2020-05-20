@@ -273,7 +273,11 @@ import javafx.stage.Stage;
                        this.closeImage.setCache(true);
                    } else {
                        if (p == 0) {
-                           Image newb = new Image(this.getClass().getResourceAsStream("UI/assets/unkown.jpg"));
+
+                           String paa = "src/UI/assets/unkown.jpg";
+                           File relativeFile = new File(paa);
+
+                           Image newb = new Image(relativeFile.toURI().toString());
 
                            this.closeImage.setImage(newb);
                            this.closeImage.setVisible(true);
