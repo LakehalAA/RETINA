@@ -46,17 +46,13 @@ import javax.swing.JFileChooser;
 public class C_dashboardExperim {
 
 	@FXML
-	private ResourceBundle resources;
-
-	@FXML
-	private URL location;
-
-	@FXML
 	private Label persons;
-	@FXML
-	private Label resolution;
+
 	@FXML
 	private Label faces;
+
+	@FXML
+	private Label resolution;
 
 	@FXML
 	private Label timePredict;
@@ -68,13 +64,10 @@ public class C_dashboardExperim {
 	private LineChart<Number, Number> roc;
 
 	@FXML
-	private LineChart<Number, Number> scoreGraph;
-
-	@FXML
 	private HBox rocCurve1;
 
 	@FXML
-	private Label score;
+	private LineChart<Number, Number> scoreGraph;
 
 	@FXML
 	private BarChart<String, Number> bars;
@@ -87,6 +80,9 @@ public class C_dashboardExperim {
 
 	@FXML
 	private Label rejection;
+
+	@FXML
+	private Label score;
 
 	@FXML
 	private ImageView reconstructed;
@@ -125,19 +121,14 @@ public class C_dashboardExperim {
 	private Button back;
 
 	@FXML
-	private Button chooseImage;
+	private Button choose;
 
-	private static File path;
 	@FXML
 	private Button execute;
+
 	private static String pathtemp;
-
-	@FXML
-	private Label nbreFaces;
 	private static DataBase db;
-
-	@FXML
-	private Button choose;
+	private static File path;
 
  //Handling buttons
 @FXML
@@ -165,8 +156,6 @@ public void chooseImage(ActionEvent event) throws IOException {
         String ext = FilenameUtils.getExtension(choose.getAbsolutePath());
 
         FaceDetector fd = new FaceDetector(choose);
-    
-
             try {
             	 if (ext.equalsIgnoreCase("jpg") || ext.equalsIgnoreCase("png")) {
                 if (fd.detectFace()) {
@@ -176,10 +165,9 @@ public void chooseImage(ActionEvent event) throws IOException {
                     choose = converter.convertFormat(ImageIO.read(choose), db.getNUMROWS(), db.getNUMCOLS());
                     // System.out.println("hey there,,covert jpg png to pgm");
                 }
-                }
                 
             
-                } catch (Exception e) {
+                }} catch (Exception e) {
                 // TODO: handle exception
             	dialogStage.close();
                 Alert alert = new Alert(AlertType.INFORMATION);
@@ -206,7 +194,7 @@ public void chooseImage(ActionEvent event) throws IOException {
                     closestImage.setCache(true);
                 } else {
 
-                    String paa = "src/UI/assets/unkown.jpg";
+                    String paa = "/UI/assets/unkown.jpg";
                     File relativeFile = new File(paa);
                     // System.out.println(relativeFile.toURI().toString());
 
@@ -453,7 +441,6 @@ dialogStage.close();
 		assert distanceChoice1 != null : "fx:id=\"distanceChoice1\" was not injected: check your FXML file 'DashBoard.fxml'.";
 		assert nbTraining != null : "fx:id=\"nbTraining\" was not injected: check your FXML file 'DashBoard.fxml'.";
 		assert back != null : "fx:id=\"back\" was not injected: check your FXML file 'DashBoard.fxml'.";
-		assert chooseImage != null : "fx:id=\"chooseImage\" was not injected: check your FXML file 'DashBoard.fxml'.";
 
 		distancesObsList = FXCollections.observableArrayList(distance.values());
 		// System.out.print(distancesObsList.size());
@@ -466,7 +453,7 @@ dialogStage.close();
 		int maxTrainingImages = 7;
 		int initialTrainingImages = 5;
 		nbTraining.setValueFactory(
-				new SpinnerValueFactory.IntegerSpinnerValueFactory(1, maxTrainingImages, initialTrainingImages));
+		new SpinnerValueFactory.IntegerSpinnerValueFactory(1, maxTrainingImages, initialTrainingImages));
 
 	}
 

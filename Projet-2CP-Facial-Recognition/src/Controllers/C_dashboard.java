@@ -488,7 +488,7 @@ public class C_dashboard implements Initializable {
                         AtomicReference<Optional<String>> result = new AtomicReference<>(dialog.showAndWait());
 
                         result.get().ifPresent(pass ->{
-                            if (pass.compareTo("della3")==0) {
+                            if ((Main.Admin.testAdmin("admin", pass))) {
                                 reAsk.set(false);
                                 dialog.close();
                                 FileUtils.deleteQuietly(file);
@@ -626,7 +626,6 @@ public class C_dashboard implements Initializable {
         export_password(pickedLoc);
     }
 
-
     private Button ok ;
     private PasswordField pF;
 
@@ -639,6 +638,7 @@ public class C_dashboard implements Initializable {
             public void handle(ActionEvent actionEvent) {
                 File export = new File(pickedLoc+"/exported_ORL.zip");
                 try {
+                    System.out.print(database.getAbsolutePath());
                     protection.hash(database.getAbsolutePath(),export.getAbsolutePath(),pF.getText());
                 } catch (IOException e) {
                     e.printStackTrace();

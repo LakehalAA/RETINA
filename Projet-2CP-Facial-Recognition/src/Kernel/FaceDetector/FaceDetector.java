@@ -50,7 +50,6 @@ public class FaceDetector {
     private boolean nature;
     private File extraction;
 
-
     //Getters & Setters
     public SimpleMatrix getBinary_image() {
         return binary_image;
@@ -129,7 +128,6 @@ public class FaceDetector {
             }
         }
     }
-
 
     //Detecting and clustering all white regions
     public void FloodFilling() {
@@ -225,18 +223,27 @@ public class FaceDetector {
 
     }
 
+    static {
+        try {
+            System.loadLibrary(Core.NATIVE_LIBRARY_NAME); // used for tests. This library in classpath only
+        } catch (UnsatisfiedLinkError e) {
+            try {
+                NativeUtils.loadLibraryFromJar("/../opencv_java430.dll"); // during runtime. .DLL within .JAR
+            } catch (IOException e1) {
+                throw new RuntimeException(e1);
+            }
+        }
+    }
+
     public File extracting(String source){
         Mat cropImage;
         int x = 0,y = 0,height = 0,width = 0;
 
-        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-       // System.out.println("\nRunning FaceDetector");
+        // System.out.println("\nRunning FaceDetector");
 
-
-        
         // Instantiating the CascadeClassifier
         String xmlFile = ".\\libraries\\opencv_java\\fxml\\lbpcascade_frontalface.xml";
-      //  CascadeClassifier classifier = new CascadeClassifier(xmlFile);
+        // CascadeClassifier classifier = new CascadeClassifier(xmlFile);
         CascadeClassifier faceDetector = new CascadeClassifier();
         faceDetector.load(xmlFile);
         
@@ -244,14 +251,12 @@ public class FaceDetector {
 
         MatOfRect face_Detections = new MatOfRect();
         faceDetector.detectMultiScale(image, face_Detections);
-       // System.out.println(String.format("Detected %s faces",  face_Detections.toArray().length));
         Rect rect_Crop=null;
         Rect rectCrop = null;
         for (Rect rect : face_Detections.toArray()) {
             rectangle(image, new org.opencv.core.Point(rect.x, rect.y), new org.opencv.core.Point(rect.x + rect.width, rect.y + rect.height),
                     new Scalar(0, 255, 0));
            rectCrop = new Rect(rect.x, rect.y, rect.width, rect.height);
-
 
         }
 
@@ -261,19 +266,16 @@ public class FaceDetector {
         Mat image_roi = new Mat(image,rectCrop);
         Imgcodecs.imwrite("temp_extract.jpg",image_roi);
         return (new File("temp_extract.jpg"));
+
     }
-
-
-
 
     public boolean detectFace() throws IOException {
         FaceDetector fd = new FaceDetector(this.image);
-       // System.out.println("Flood filling process ...");
+        //System.out.println("Flood filling process ...");
         //System.out.println("Region smoothing process ...");
         extraction = new File(String.valueOf(extracting(this.image.getAbsolutePath())));
         BufferedImage bf = ImageIO.read(extraction);
         extraction_pgm = converter.convertFormat(bf, bf.getWidth(),bf.getHeight());
-
 
         extraction_jpg = new File(converter.convertFormat(extraction_pgm.getAbsolutePath(), "extracted"));
         double add = Math.random();
@@ -281,12 +283,5 @@ public class FaceDetector {
         FileUtils.deleteQuietly(new File("temp_extract.jpg"));
         return this.nature;
     }
-
-   /* public static void main(String args[]) throws IOException {
-        FaceDetector fd = new FaceDetector(new File("C:\\Users\\DELL-10\\Desktop\\STARKUS\\Integration_28_04_2020\\Utilities\\att_faces-orl\\s4\\6.pgm"));
-        fd.detectFace();
-
-    }*/
-
 
 }

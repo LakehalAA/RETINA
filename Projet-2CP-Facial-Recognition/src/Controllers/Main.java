@@ -34,8 +34,6 @@ public class Main extends Application {
    
     public static Admin admin = new Admin("admin", "admin");
 
-
-
 	@Override
     public void start(Stage primaryStage) throws Exception{
 
@@ -50,14 +48,14 @@ public class Main extends Application {
         manager.addScene("predict", new sceneManager.Scene(600,900,"Prediction", "/UI/Predict.fxml"));
         manager.addScene("admin", new sceneManager.Scene(600,900,"Administrateur", "/UI/Admin_Dashboard.fxml"));
         manager.addScene("addPerson", new sceneManager.Scene(500,300,"Ajouter une nouvelle personne", "/UI/Add_Person.fxml"));
-        manager.addScene("experiment", new sceneManager.Scene(768,1366,"Experimentez!", "/UI/Dashboard.fxml"));
+        manager.addScene("experiment", new sceneManager.Scene(768,1366,"Experimentez!", "/UI/DashBoard.fxml"));
         manager.addScene("verify", new sceneManager.Scene(600,900,"Verification", "/UI/Verify.fxml"));
 
        /** Parent root = FXMLLoader.load(getClass().getResource("../UI/On_Boarding.fxml"));
         primaryStage.setTitle("Retina");
         primaryStage.setScene(new Scene(root, 900, 600));
-        
         primaryStage.show();*/
+
         manager.showScene(manager.getScene("onboard"));
 
         if((new File("historique/history.ser")).length()>0){

@@ -16,15 +16,12 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.layout.*;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-
 import java.io.*;
 import java.net.URL;
 import java.util.*;
-
 import javax.imageio.ImageIO;
 
 public class C_main {
@@ -220,7 +217,6 @@ public class C_main {
 				serie1.getData().add(new XYChart.Data(RecognitionSystem.getThresholds().get(i).getThreshold_value(), RecognitionSystem.getThresholds().get(i).getFRR()));
 				serie2.getData().add(new XYChart.Data(RecognitionSystem.getThresholds().get(i).getThreshold_value(), RecognitionSystem.getThresholds().get(i).getFAR()));
 
-
 			}
 
 			lineChart.getData().addAll(serie1, serie2);
@@ -259,15 +255,15 @@ public class C_main {
 			String ext = FilenameUtils.getExtension(pickedImage.getAbsolutePath());
 
 	    	FaceDetector fd = new FaceDetector(pickedImage);
-			if (ext.equalsIgnoreCase("jpg") || ext.equalsIgnoreCase("png")) {
+		if (ext.equalsIgnoreCase("jpg") || ext.equalsIgnoreCase("png")) {
 			try {
+				if(fd.detectFace()) {
+					pickedImage = fd.getExtraction_jpg();
+					pickedImage=converter.convertFormat(ImageIO.read(pickedImage), RecognitionSystem.getDatabase().getNUMROWS(), RecognitionSystem.getDatabase().getNUMCOLS());
+					C_predict.pathToPredict=pickedImage.getAbsolutePath();
+				}
+				Main.manager.showScene(Main.manager.getScene("predict"));
 
-			if(fd.detectFace()) {
-				pickedImage = fd.getExtraction_jpg();
-                pickedImage=converter.convertFormat(ImageIO.read(pickedImage), RecognitionSystem.getDatabase().getNUMROWS(), RecognitionSystem.getDatabase().getNUMCOLS());
-                C_predict.pathToPredict=pickedImage.getAbsolutePath();
-			}
-			Main.manager.showScene(Main.manager.getScene("predict"));
 			}catch (Exception e) {
 				// TODO: handle exception
 				Alert alert = new Alert(AlertType.INFORMATION);
@@ -275,8 +271,7 @@ public class C_main {
 				alert.setContentText("L'image ne contient pas de visage ou que le visage n'est pas assez clair !");
 				alert.showAndWait();
 			}
-		}
-		else {
+		}else {
 				C_predict.pathToPredict = pickedImage.getAbsolutePath();
 				Main.manager.showScene(Main.manager.getScene("predict"));
 		}

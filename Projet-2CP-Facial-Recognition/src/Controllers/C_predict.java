@@ -172,7 +172,7 @@ import javafx.stage.Stage;
                this.closeImage.setCache(true);
            } else {
                if (p == 0) {
-                   String paa = "src/UI/assets/unkown.jpg";
+                   String paa = "/UI/assets/unkown.jpg";
                    File relativeFile = new File(paa);
                    Image newb = new Image(relativeFile.toURI().toString());
 
@@ -190,23 +190,19 @@ import javafx.stage.Stage;
                    e.printStackTrace();
                }
            }
-              
 
           	 pathToPredict="";
              }
              }
-
        	
        }
-
-     
 
        void pickImage() throws IOException{
            Stage stage = new Stage();
            FileChooser fileChooser = new FileChooser();
            fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("PGM","*.pgm"), new FileChooser.ExtensionFilter("PNG","*.png"), new FileChooser.ExtensionFilter("JPG","*.jpg"));
            fileChooser.setInitialDirectory(new File(System.getProperty("user.home")));
-           fileChooser.setTitle("Choose a picture to match");
+           fileChooser.setTitle("Choisissez une image pour matcher");
            pickedImage = fileChooser.showOpenDialog(stage);
            String pathHisto = "historique/"+"his"+(HistoryList.getHistoryList().size());
            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
@@ -219,24 +215,21 @@ import javafx.stage.Stage;
                    if (ext.equalsIgnoreCase("jpg") || ext.equalsIgnoreCase("png")) {
                        if(fd.detectFace()){
                     	   pickedImage = fd.getExtraction_jpg();
-                    	  
-                       pickedImage=converter.convertFormat(ImageIO.read(pickedImage), RecognitionSystem.getDatabase().getNUMROWS(), RecognitionSystem.getDatabase().getNUMCOLS());
-                      
-                   }
+                    	   pickedImage=converter.convertFormat(ImageIO.read(pickedImage), RecognitionSystem.getDatabase().getNUMROWS(), RecognitionSystem.getDatabase().getNUMCOLS());
+                       }
                    }
                     else {
 
-                           try {
-                               converter.convertFormat(pickedImage.getAbsolutePath(),"test");
-                        	   FaceDetector fdd = new FaceDetector(new File("test.jpg"));
-                               if(fdd.detectFace()) {
-                                   C_predict.pathToPredict = pickedImage.getAbsolutePath();
-                               }
-                           
-							histoFile=pickedImage;
-						} catch (Exception e) {
-							// TODO: handle exception
-						}
+                       try {
+                           converter.convertFormat(pickedImage.getAbsolutePath(),"test");
+                           FaceDetector fdd = new FaceDetector(new File("test.jpg"));
+                           if(fdd.detectFace()) {
+                               C_predict.pathToPredict = pickedImage.getAbsolutePath();
+                           }
+                           histoFile=pickedImage;
+                       } catch (Exception e) {
+                           // TODO: handle exception
+                       }
                            
                    }
                    int p = RecognitionSystem.getProcess().predict(pickedImage.getAbsolutePath());
@@ -280,11 +273,7 @@ import javafx.stage.Stage;
                        this.closeImage.setCache(true);
                    } else {
                        if (p == 0) {
-                           String paa = "src/UI/assets/unkown.jpg";
-                           File relativeFile = new File(paa);
-
-
-                           Image newb = new Image(relativeFile.toURI().toString());
+                           Image newb = new Image(this.getClass().getResourceAsStream("UI/assets/unkown.jpg"));
 
                            this.closeImage.setImage(newb);
                            this.closeImage.setVisible(true);

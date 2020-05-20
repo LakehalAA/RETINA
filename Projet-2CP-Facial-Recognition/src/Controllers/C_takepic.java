@@ -23,6 +23,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
 import javafx.scene.shape.Rectangle;
+import org.apache.commons.io.FileUtils;
 
 import javax.imageio.ImageIO;
 
@@ -301,26 +302,26 @@ public class C_takepic {
         File f = null;
         if(webcam.getName().equals("DroidCam Source 3 0")) {
             f = converter.convertFormat(rotatedImage, RecognitionSystem.getDatabase().getNUMCOLS(), RecognitionSystem.getDatabase().getNUMROWS());
-            System.out.print(f.getAbsolutePath());
         }else{
             f = converter.convertFormat(inter, RecognitionSystem.getDatabase().getNUMROWS(), RecognitionSystem.getDatabase().getNUMCOLS());
         }
 
     	   //put absolute path to the image  in place of the sentence below
 
-           FaceDetector fd = new FaceDetector (new File("outputcam.png"));
+            converter.convertFormat(f.getPath(),"outputcam.png");
+            FaceDetector fd = new FaceDetector (new File("outputcam.png"));
             //converter.convertFormat(inter, 112,92);
            try {
            if(fd.detectFace()) {
                     C_predict.pathToPredict=f.getAbsolutePath();
                     Main.manager.showScene(Main.manager.getScene("predict"));
            }
-           else {
-               Alert alert = new Alert(Alert.AlertType.ERROR);
-               alert.setHeaderText(null);
-               alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
-               alert.showAndWait();
-           }
+          else {
+              Alert alert = new Alert(Alert.AlertType.ERROR);
+              alert.setHeaderText(null);
+              alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
+              alert.showAndWait();
+          }
            }
            catch (Exception e) {
    			// TODO: handle exception
@@ -328,6 +329,7 @@ public class C_takepic {
                alert.setHeaderText(null);
                alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
                alert.showAndWait();
+               e.printStackTrace();
    		}
         
     }

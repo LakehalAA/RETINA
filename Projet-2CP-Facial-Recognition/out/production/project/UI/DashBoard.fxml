@@ -165,9 +165,9 @@
                                 <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0" HBox.hgrow="ALWAYS">
                                     <children>
                                         <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@assets/Clock.png" />
-                                            </image>
+                                 <image>
+                                    <Image url="@assets/Clock.png" />
+                                 </image>
                                         </ImageView>
                                         <Label prefHeight="17.0" prefWidth="122.0" text=" temps d'execution" HBox.hgrow="ALWAYS">
                                             <font>
@@ -188,9 +188,9 @@
                                 <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="20.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0" HBox.hgrow="ALWAYS">
                                     <children>
                                         <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@assets/Confusion-1.png" />
-                                            </image>
+                                 <image>
+                                    <Image url="@assets/Confusion-1.png" />
+                                 </image>
                                         </ImageView>
                                         <Label prefHeight="17.0" prefWidth="146.0" text="Degre de essamblance" HBox.hgrow="ALWAYS">
                                             <font>
@@ -324,9 +324,9 @@
                                 <HBox alignment="CENTER_LEFT" prefHeight="39.0" prefWidth="267.0" spacing="10.0" VBox.vgrow="ALWAYS">
                                     <children>
                                         <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@assets/check.png" />
-                                            </image>
+                                 <image>
+                                    <Image url="@assets/check.png" />
+                                 </image>
                                         </ImageView>
                                         <Label prefHeight="17.0" prefWidth="106.0" text="Reconnaissance" HBox.hgrow="ALWAYS">
                                             <font>
@@ -351,9 +351,9 @@
                                 <HBox alignment="CENTER_LEFT" prefHeight="0.0" prefWidth="267.0" spacing="10.0" VBox.vgrow="ALWAYS">
                                     <children>
                                         <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@assets/Confusion.png" />
-                                            </image>
+                                 <image>
+                                    <Image url="@assets/Confusion.png" />
+                                 </image>
                                         </ImageView>
                                         <Label prefHeight="17.0" prefWidth="106.0" text="Confusion" HBox.hgrow="ALWAYS">
                                             <font>
@@ -381,9 +381,9 @@
                                 <HBox alignment="CENTER_LEFT" prefHeight="23.0" prefWidth="267.0" spacing="10.0" VBox.vgrow="ALWAYS">
                                     <children>
                                         <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@assets/non-check.png" />
-                                            </image>
+                                 <image>
+                                    <Image url="@assets/non-check.png" />
+                                 </image>
                                         </ImageView>
                                         <Label prefHeight="17.0" prefWidth="95.0" text="Rejet" HBox.hgrow="ALWAYS">
                                             <font>
@@ -411,9 +411,9 @@
                                 <HBox alignment="CENTER_LEFT" prefHeight="0.0" prefWidth="267.0" spacing="10.0" VBox.vgrow="ALWAYS">
                                     <children>
                                         <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@assets/Score.png" />
-                                            </image>
+                                 <image>
+                                    <Image url="@assets/Score.png" />
+                                 </image>
                                         </ImageView>
                                         <Label prefHeight="17.0" prefWidth="90.0" text="F1-score" HBox.hgrow="ALWAYS">
                                             <font>
@@ -455,12 +455,12 @@
                                 <Pane HBox.hgrow="ALWAYS">
                                     <children>
                                         <ImageView fx:id="reconstructed" fitHeight="205.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@assets/Backgrssound.png" />
-                                            </image>
                                             <viewport>
                                                 <Rectangle2D />
                                             </viewport>
+                                 <image>
+                                    <Image url="@assets/Backgrssound.png" />
+                                 </image>
                                         </ImageView>
                                     </children>
                                 </Pane>
@@ -496,9 +496,9 @@
                                 <Pane HBox.hgrow="ALWAYS">
                                     <children>
                                         <ImageView fx:id="closestImage" fitHeight="205.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@assets/Backgrssound.png" />
-                                            </image>
+                                 <image>
+                                    <Image url="@assets/Backgrssound.png" />
+                                 </image>
                                         </ImageView>
                                     </children>
                                 </Pane>

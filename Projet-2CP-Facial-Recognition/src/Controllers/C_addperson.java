@@ -316,7 +316,7 @@ public class C_addperson {
             }
 
             FileUtils.touch(new File("outputcam.png"));
-            converter.convertFormat(f.getPath(),"outputcam.png");
+            System.out.print(converter.convertFormat(f.getPath(),"outputcam.png"));
             FaceDetector fd = new FaceDetector(new File("outputcam.png.jpg"));
             //  converter.convertFormat(inter, 112,92);
             if (fd.detectFace()) {
@@ -330,14 +330,14 @@ public class C_addperson {
                 picOrder.setText(0 + String.valueOf(picturingOrder + 1));
                 reStartCam();
 
-            } else {
+          } else {
 
-                Alert alert = new Alert(Alert.AlertType.ERROR);
-                alert.setHeaderText(null);
-                alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
-                alert.showAndWait();
+              Alert alert = new Alert(Alert.AlertType.ERROR);
+              alert.setHeaderText(null);
+              alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
+              alert.showAndWait();
 
-            }
+          }
         }else {
 
             Rectangle clip = new Rectangle();
@@ -397,12 +397,12 @@ public class C_addperson {
                 setRetrain(true);
                 sceneManager.showScene(sceneManager.getScene("admin"));
 
-            } else {
-                Alert alert = new Alert(Alert.AlertType.ERROR);
-                alert.setHeaderText(null);
-                alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
-                alert.showAndWait();
-            }
+          } else {
+              Alert alert = new Alert(Alert.AlertType.ERROR);
+              alert.setHeaderText(null);
+              alert.setContentText("L'image ne s'agit pas d'un visage, ou contient un visage non clair !");
+              alert.showAndWait();
+          }
             } catch (Exception e) {
 				// TODO: handle exception
             	 Alert alert = new Alert(Alert.AlertType.ERROR);
