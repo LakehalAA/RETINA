@@ -23,7 +23,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="768.0" prefWidth="1366.0" spacing="30.0" stylesheets="@css/styleAnalytics.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.C_dashboardExperim">
+<VBox fx:id="root" prefHeight="768.0" prefWidth="1366.0" spacing="30.0" stylesheets="@css/styleAnalytics.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.C_dashboardExperim">
     <children>
         <Label text="ANALYTICS">
             <font>
@@ -648,6 +648,14 @@
                       </font>
                   </Button>
             <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button layoutX="794.0" layoutY="10.0" mnemonicParsing="false" onAction="#snapshot" prefHeight="29.0" prefWidth="256.0" styleClass="button-secondary" text="Capture d'écran" textFill="#222222">
+               <effect>
+                  <Glow />
+               </effect>
+               <font>
+                  <Font name="GothamPro-Medium" size="12.0" />
+               </font>
+            </Button>
                   <Button fx:id="choose" mnemonicParsing="false" onAction="#chooseImage" prefHeight="29.0" prefWidth="256.0" styleClass="button-secondary" text="Choisir l'Image" textFill="#222222">
                       <effect>
                           <Glow />

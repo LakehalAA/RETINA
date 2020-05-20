@@ -2,9 +2,11 @@ package Controllers;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
+import javafx.scene.SnapshotParameters;
 import javafx.scene.chart.BarChart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
@@ -13,7 +15,10 @@ import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.image.WritableImage;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Modality;
@@ -32,6 +37,7 @@ import Kernel.Reconnaissance.RecognitionSystem;
 import Kernel.Utils.DataBase;
 import ProgressBar.RingProgressIndicator;
 
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
@@ -129,6 +135,32 @@ public class C_dashboardExperim {
 	private static String pathtemp;
 	private static DataBase db;
 	private static File path;
+
+    @FXML
+    private VBox root;
+
+    @FXML
+    public void snapshot(ActionEvent actionEvent) throws IOException {
+        try {
+
+            File directory = new File("snapshots");
+            File[] files = directory.listFiles(File::isFile);
+            SnapshotParameters param = new SnapshotParameters();
+            param.setDepthBuffer(true);
+            param.setFill(Color.CORNSILK);
+            WritableImage snapshot = root.snapshot(param, null);
+            BufferedImage tempImg = SwingFXUtils.fromFXImage(snapshot, null);
+
+            File outputfile = new File(("snapshots/SNAPSHOT"+(files.length+1)+".png"));
+
+            ImageIO.write(tempImg, "png", outputfile);
+
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            FileUtils.forceMkdir(new File("snapshots"));
+        }
+
+    }
 
  //Handling buttons
 @FXML

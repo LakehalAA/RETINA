@@ -24,7 +24,7 @@
 			<tabs>
 				<Tab fx:id="dashboard" closable="false" text="DASHBOARD">
 					<content>
-						<VBox alignment="CENTER">
+						<VBox fx:id="root" alignment="CENTER">
 							<children>
 								<ImageView fx:id="imageview" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS">
 									<VBox.margin>

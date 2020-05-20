@@ -7,22 +7,141 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b998069-abf0-40e3-9932-b7ef7147e5c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BufferPerson/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/1.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BufferPerson/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/2.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BufferPerson/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/3.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BufferPerson/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/4.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BufferPerson/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/5.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BufferPerson/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/6.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BufferPerson/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/BufferPerson/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/historique/history.ser" beforeDir="false" afterPath="$PROJECT_DIR$/historique/history.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_addperson$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_addperson$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_addperson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_addperson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_predict.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_predict.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/UI/Predict.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/UI/Predict.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/C_addperson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_addperson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/C_predict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_predict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Predict.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Predict.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboardExperim$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboardExperim$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboardExperim$distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboardExperim$distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboardExperim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Controllers/C_dashboardExperim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/UI/DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/UI/DashBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/C_dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/C_dashboardExperim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/C_dashboardExperim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Admin_Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Admin_Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/DashBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s31/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s31/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s32/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s32/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s33/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s33/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s35/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s35/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s36/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s36/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s37/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s37/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s38/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s38/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s39/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s39/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/1.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/1.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/10.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/10.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/2.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/2.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/3.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/3.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/4.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/4.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/5.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/5.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/6.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/6.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/7.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/7.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/8.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/8.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s40/9.pgm" beforeDir="false" afterPath="$PROJECT_DIR$/temporary/s40/9.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s41/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s42/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary/s43/9.pgm" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +167,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ORL" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -94,7 +213,7 @@
       <workItem from="1589837543716" duration="19660000" />
       <workItem from="1589890916068" duration="6979000" />
       <workItem from="1589942692149" duration="22957000" />
-      <workItem from="1589979330878" duration="1696000" />
+      <workItem from="1589979330878" duration="3645000" />
     </task>
     <servers />
   </component>

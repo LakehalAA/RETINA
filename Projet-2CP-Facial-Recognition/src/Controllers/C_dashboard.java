@@ -9,6 +9,7 @@ import javafx.beans.value.ChangeListener;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
+import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -18,14 +19,20 @@ import javafx.geometry.Point2D;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.SnapshotParameters;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.image.WritableImage;
 import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import javafx.stage.*;
 import javafx.util.Duration;
 import org.apache.commons.io.FileUtils;
+
+import javax.imageio.ImageIO;
 import javax.swing.*;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
@@ -94,6 +101,9 @@ public class C_dashboard implements Initializable {
 
     @FXML
     private Button changeORL;
+
+    @FXML
+    private VBox root;
 
     private DataBase db=RecognitionSystem.getDatabase();//database
     private int nbreOfPersonIndatabase= db.getNUMBERMAXOFPRESONS();
@@ -614,7 +624,6 @@ public class C_dashboard implements Initializable {
         sceneManager.showScene(sceneManager.getScene("main"));
 
     }
-
 
 
     public void export(){
